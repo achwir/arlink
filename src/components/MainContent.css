@@ -1,0 +1,76 @@
+.main-content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 220px; /* Sesuaikan margin kiri untuk memberi ruang bagi sidebar */
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .bio-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #ddd;
+  }
+  
+  .bio-text {
+    max-width: 600px;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .bio-text p {
+    margin-bottom: 10px;
+  }
+  
+  .bio-text p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Project ARLink Section */
+  .project-section {
+    margin-top: 40px;
+  }
+  
+  .project-details {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .project-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .project-description {
+    max-width: 600px;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .project-description p {
+    margin-bottom: 10px;
+  }
+  
+  .project-description a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-description a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,53 @@
+.sidebar {
+  width: 200px;
+  background-color: white; /* Latar belakang putih */
+  color: #333; /* Warna teks sidebar */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+  border-right: 1px solid #ddd; /* Garis pemisah */
+}
+
+.sidebar.closed {
+  width: 60px;
+  overflow: hidden;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  color: #2c3e50; /* Warna judul sidebar */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+  cursor: pointer;
+  color: #333; /* Warna teks menu (default) */
+  font-size: 16px; /* Ukuran font menu */
+  transition: color 0.3s; /* Efek transisi warna saat hover */
+}
+
+.sidebar ul li:hover {
+  color: #1abc9c; /* Warna teks menu saat hover (hijau toska) */
+}
+
+.toggle-btn {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+.toggle-btn:hover {
+  background-color: #1abc9c;
+}
